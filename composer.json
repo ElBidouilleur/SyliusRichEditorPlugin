@@ -1,12 +1,12 @@
 {
-    "name": "monsieurbiz/sylius-rich-editor-plugin",
+    "name": "elbidouilleur/sylius-rich-editor-plugin",
     "type": "sylius-plugin",
-    "keywords": ["sylius", "sylius-plugin", "monsieurbiz"],
+    "keywords": ["sylius", "sylius-plugin", "elbidouilleur"],
     "description": "A Rich Editor plugin for Sylius.",
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "sylius/sylius": ">=1.11 <1.14",
+        "sylius/sylius": "2.*",
         "twig/markdown-extra": "^2.16|^3.12",
         "twig/extra-bundle": "^2.16|^3.12",
         "league/commonmark": "^2.5"
@@ -38,9 +38,6 @@
         "phpspec": "phpspec run"
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "2.9-dev"
-        },
         "symfony": {
             "docker": false,
             "endpoint": ["https://api.github.com/repos/monsieurbiz/symfony-recipes/contents/index.json?ref=flex/master", "flex://defaults"]

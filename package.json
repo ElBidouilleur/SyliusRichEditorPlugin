@@ -1,7 +1,7 @@
 {
-  "name": "monsieurbiz-sylius-rich-editor-plugin",
+  "name": "elbidouilleur-sylius-rich-editor-plugin",
   "version": "0.0.1",
-  "description": "Add and manage custom content blocks in your content",
+  "description": "Add and manage custom content blocks in your content based on monsieurbiz/sylius-rich-editor-plugin",
   "main": "webpack.config.js",
   "scripts": {
     "build": "encore production",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/monsieurbiz/sylius-rich-editor-plugin.git"
+    "url": "git+https://github.com/elbidouilleur/sylius-rich-editor-plugin.git"
   },
   "author": "Monsieur Biz <hello@monsieurbiz.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/monsieurbiz/sylius-rich-editor-plugin/issues"
+    "url": "https://github.com/elbidouilleur/sylius-rich-editor-plugin/issues"
   },
-  "homepage": "https://github.com/monsieurbiz/sylius-rich-editor-plugin#readme",
+  "homepage": "https://github.com/elbidouilleur/sylius-rich-editor-plugin#readme",
   "devDependencies": {
     "@symfony/webpack-encore": "^0.28.1 || ^1.6.1",
     "autoprefixer": "^9.7.3",
